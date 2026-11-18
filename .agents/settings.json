@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "deny": [
+      "read_file(node_modules/)",
+      "read_file(dist/)",
+      "read_file(build/)",
+      "read_file(.git/)",
+      "read_file(package-lock.json)",
+      "read_file(yarn.lock)",
+      "read_file(pnpm-lock.yaml)",
+      "read_file(*.log)"
+    ]
+  }
+}
