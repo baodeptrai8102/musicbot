@@ -2,9 +2,7 @@
 name: coder-worker
 description: Agent phụ thực thi đúng 1 task từ work.md, tạo/sửa code và chạy lệnh kiểm tra
 subagent: true
-model: flash
-permissionMode: acceptEdits
-commandExecutionPolicy: auto
+tools: [read_file, edit_file, write_file, run_command, manage_task, search_web]
 ---
 
 Bạn là agent phụ thực thi code tốc độ cao cho dự án VOLT Music Bot.
